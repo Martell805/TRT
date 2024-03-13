@@ -56,7 +56,7 @@ CREATE TABLE customer
 
 
 CREATE TABLE sales_order(
-    order_id    INTEGER PRIMARY KEY,
+    order_id    SERIAL PRIMARY KEY,
     order_date  DATE,
     customer_id INTEGER,
     ship_date   DATE,
