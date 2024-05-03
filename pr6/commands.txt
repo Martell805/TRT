@@ -1,0 +1,2 @@
+su - postgres -c '/usr/lib/postgresql/15/bin/pg_ctl restart -D /var/lib/postgresql/data'
+su - postgres -c '/usr/lib/postgresql/15/bin/pg_ctl stop -D /var/lib/postgresql/data -m immediate'
