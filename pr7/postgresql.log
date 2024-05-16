@@ -1,0 +1,7 @@
+2024-04-28 22:52:57.205 MSK [18132] LOG:  process 25411 still waiting for ShareLock on transaction 184362 after 100.043 ms
+2024-04-28 22:52:57.205 MSK [18132] DETAIL:  Process holding the lock: 25374. Wait queue: 25411.
+2024-04-28 22:52:57.205 MSK [18132] CONTEXT:  while updating tuple (0,1) in relation "example"
+2024-04-28 22:52:57.205 MSK [18132] STATEMENT:  UPDATE example SET value = 50.00 WHERE id = 1;
+2024-04-28 22:53:47.256 MSK [18132] LOG:  process 25411 acquired ShareLock on transaction 184362 after 1010.913 ms
+2024-04-28 22:53:47.256 MSK [18132] CONTEXT:  while updating tuple (0,1) in relation "example"
+2024-04-28 22:53:47.256 MSK [18132] STATEMENT:  UPDATE example SET value = 50.00 WHERE id = 1;
