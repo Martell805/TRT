@@ -1,0 +1,1 @@
+CALL process_queue();
